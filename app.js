@@ -5,7 +5,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 const dbUrlLocal = "mongodb://localhost:27017/daily-journal";
 const dbUrl =
-  "mongodb+srv://admin:1239875@cluster0.l0bpsfp.mongodb.net/?retryWrites=true&w=majority/daily-journal";
+  "mongodb+srv://admin:1239875@cluster0.l0bpsfp.mongodb.net/daily-journal";
 
 const homeStartingContent = "To post a new content in the daily journal plese ";
 const aboutContent =
